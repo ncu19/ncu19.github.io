@@ -17,24 +17,3 @@ function forget() {
 	window.location.href = 'homepage.html';
 }
 
-var timerId; // 存储计时器ID
-
-function start() {
-  // 开始计时器
-  timerId = setInterval(function() {
-    // 在此处更新计时器显示
-    console.log("计时器正在运行...");
-  }, 1000);
-}
-
-function pause() {
-  // 暂停计时器
-  clearInterval(timerId);
-}
-
-function stop() {
-  // 停止计时器
-  clearInterval(timerId);
-  // 在此处重置计时器显示
-  console.log("计时器已停止。");
-}
