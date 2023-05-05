@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>登入頁面</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login-box">
+		<h1>Welcome！</h1>
+		<form>
+			<label for="username">用戶名：</label>
+			<input type="text" id="username" name="username"><br><br>
+			<label for="password">密碼：</label>
+			<input type="password" id="password" name="password"><br><br>
+			<input type="button" value="登入" onclick="login()">
+            <input type="button" value="註冊帳號" onclick="register()">
+            <input type="button" value="忘記密碼" onclick="forget()">
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
