@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>上傳音檔網站</title>
+    <link rel="stylesheet" href="css/上傳音檔.css">
+  </head>
+  <body>
+    <h1>上傳您的音檔</h1>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+      <label for="audiofile">選擇音檔：</label>
+
+      <input type="file" name="audiofile" id="audiofile"><br><br>
+      <label for="summary">摘要：</label>
+      <input type="text" name="summary" id="summary"><br><br>
+      <label for="transcrip">逐字稿：</label>
+      <textarea name="transcrip" id="transcrip"></textarea><br><br>
+      <input type="submit" value="上傳" onclick="confirm()">
+    </form>
+    <script src="js/上傳音檔.js"></script>
+  </body>
+</html>

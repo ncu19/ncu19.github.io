@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>主頁面</title>
+    <!--Font Awesom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--CSS連結-->
+	<link rel="stylesheet" href="css/homepage.css">
+  </head>
+  <body>
+    <h1>選擇功能</h1>
+    <!--第一區 Record -->
+        <section class="record" id="record">
+            <div class="content">
+                <input type="button" value="線上錄音" onclick="record()">
+
+            </div>
+        </section>
+    <!--第二區 上傳音檔 -->
+        <section class="upload" id="upload">
+            <div class="content">
+                <input type="button" value="上傳音檔" onclick="upload()">
+            
+            </div>
+         </section>
+    <!--第三區 錄音 -->
+        <section class="transcribe" id="transcribe">
+            <div class="content">
+                <input type="button" value="逐字稿" onclick="transcribe()">
+            
+            </div>
+        </section>
+    <!--第四區 Summary -->
+        <section class="Summary" id="Summary">
+            <div class="content">
+                <input type="button" value="摘要" onclick="summary()">
+            
+            </div>
+        </section>
+  </body>
+    <script src="js/homepage.js"></script>
+</html>
