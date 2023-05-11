@@ -1,0 +1,53 @@
+.container {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 10px;
+    width: 10%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative; 
+    left: 50%; /* 將按鈕向右移動一半 */
+    transform: translateX(-50%);
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  

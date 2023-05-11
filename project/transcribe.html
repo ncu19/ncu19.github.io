@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>上傳逐字稿</title>
+    <link rel="stylesheet" href="css/逐字稿.css">
+  </head>
+  <body>
+    <h1>上傳您的逐字稿</h1>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+      <label for="textfile">選擇文字檔(僅能上傳.txt、.text檔)：</label>
+      <input type="file" id="textfile" name="textfile" accept=".txt,.text">
+      <br><br>
+      <input type="submit" value="上傳" onclick="confirm()">
+    </form>
+    <script src="js/逐字稿.js"></script>
+  </body>
+</html>

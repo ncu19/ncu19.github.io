@@ -1,0 +1,39 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    line-height: 150px;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn {
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:  blue;
+    color: white;
+}
+
+#time {
+    font-size: 60px;
+    color: black;
+    display: block;
+    margin: -30px;
+}
