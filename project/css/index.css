@@ -47,6 +47,8 @@ body {
 	padding: 10px 20px;
 	cursor: pointer;
 	font-size: 18px;
+	position: relative; 
+    	left: 10%; /* 將按鈕向右移動一半 */
 }
 
 .login-box input[type="button"]:hover {
